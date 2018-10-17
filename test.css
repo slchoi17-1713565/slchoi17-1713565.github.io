@@ -1,0 +1,158 @@
+/* <head>
+    <title> Keith the QB </title>
+    <link rel="stylesheet" type="text/css" href="test.css" />
+</head> */
+
+p {
+    font-size: 24px; 
+    font-family: "Arial"; 
+    color: white; 
+    font-weight: bold;
+    background-color: #8E41D5; 
+} 
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: #8E41D5; 
+}
+
+a {
+    font-size: 24px; 
+    color: white; 
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: "Passion One";
+    color: #FFBC00;
+    margin-bottom: 0px;
+    background-color: #8E41D5; 
+}
+
+body {
+    background-image: url('dark_wood.png');
+}
+
+#Header {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    background-color: #8E41D5; 
+}
+
+#Header h1 { 
+    font-size: 60px; 
+    font-family: "Passion One"; 
+    color: #FFBC00; 
+    font-weight: bold; 
+    background-color: #8E41D5; 
+}
+
+#LeftNav {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+    background-color: #8E41D5; 
+}
+
+/* #RightNav {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+} */
+
+#Content {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    padding: 15px;
+    background-color: #8E41D5; 
+}
+
+#Footer {
+    border: solid 8px black;
+    text-align: center;
+    background-color: #8E41D5; 
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+/* table text */
+#gamedays {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* border */
+#gamedays td, #gamedays th {
+    border: 1px solid white;
+    padding: 8px;
+    padding: 10px;
+}
+
+/* box fillings */
+#gamedays tr:nth-child(even) {
+    background-color:#FFBC00;
+    width: auto;
+}
+
+/* box fillings */
+#gamedays tr:nth-child(odd) {
+    background-color:  #8E41D5;
+    width: auto;
+}
+
+/* hovering */
+#gamedays tr:hover {
+    background-color: rgb(173, 173, 173);
+    width: auto;
+}
+
+/* title texts */
+#gamedays th {
+    background-color:  #8E41D5;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: ;
+    color: white;
+    margin-bottom: 20px;
+}

@@ -1,7 +1,6 @@
-/* <head>
-    <title> Keith the QB </title>
-    <link rel="stylesheet" type="text/css" href="test.css" />
-</head> */
+body {
+    background-image: url('dark_wood.png');
+}
 
 p {
     font-size: 24px; 
@@ -11,18 +10,6 @@ p {
     background-color: #8E41D5; 
 } 
 
-ul {
-    list-style-type: none;
-    padding-left: 0px;
-    background-color: #8E41D5; 
-}
-
-a {
-    font-size: 24px; 
-    color: white; 
-    font-weight: bold;
-}
-
 h3 {
     font-size: 40px;
     font-family: "Passion One";
@@ -31,8 +18,10 @@ h3 {
     background-color: #8E41D5; 
 }
 
-body {
-    background-image: url('dark_wood.png');
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: #8E41D5; 
 }
 
 #Header {
@@ -65,15 +54,17 @@ body {
     background-color: #8E41D5; 
 }
 
-/* #RightNav {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    float: left;
-    text-align: center;
-    padding-bottom: 8px;
-} */
+#LeftNav img {
+
+}
+
+#LeftNav ul{
+
+}
+
+#LeftNav h3{
+
+}
 
 #Content {
     width: 700px;
@@ -90,6 +81,22 @@ body {
     border: solid 8px black;
     text-align: center;
     background-color: #8E41D5; 
+}
+
+/* #RightNav {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+} */
+
+a {
+    font-size: 24px; 
+    color: white; 
+    font-weight: bold;
 }
 
 li a {
